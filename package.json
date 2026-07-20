@@ -1,0 +1,27 @@
+{
+    "name": "sistema-pasteleria",
+    "version": "1.0.0",
+    "description": "Sistema de gestión de catálogo web para pastelería",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    },
+    "dependencies": {
+        "express": "^4.22.2",
+        "jest": "^30.4.2",
+        "supertest": "^7.2.2"
+    },
+    "keywords": [
+        "pasteleria",
+        "api",
+        "express"
+    ],
+    "author": "Plataforma de Integración de Sistemas y Plataformas",
+    "license": "ISC",
+    "directories": {
+        "test": "tests"
+    }
+}

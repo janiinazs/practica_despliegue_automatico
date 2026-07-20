@@ -4,7 +4,7 @@ const fs = require('fs');
 const app = require('./index');
 
 describe('API de pasteles', () => {
-  const testCake = { id: 'test123', name: 'Pastel de Prueba', flavor: 'Chocolate', price: 12.50 };
+  const testCake = { id: 'test123', name: 'Pastel de Prueba', flavor: 'Coco', price: 12.50 };
 
   afterAll(() => {
     // Limpieza: eliminar pastel de prueba si existe

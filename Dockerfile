@@ -15,7 +15,7 @@ RUN npm install
 
 # Copiar el resto de los archivos
 COPY cakes.json .
-COPY public ./public       
+COPY index.html .       
 
 # Exponer el puerto de la aplicación
 EXPOSE 3000
